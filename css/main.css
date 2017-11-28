@@ -138,6 +138,7 @@ ul.list a {text-decoration: none;}
 /* FOOTER */
 .footer { background-color: #374454; }
   .footer * {color: #fff; font-size: 16px; }
+  .footer .section-cont {display: block}
   /* footer contacts */
   .footer-addr {display: flex; justify-content: space-between; list-style-type: none;}
   .footer-addr li {display: flex; flex-direction: column; margin-right: 10px; }

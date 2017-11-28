@@ -19,7 +19,7 @@ ul.list a {text-decoration: none;}
 .bttn, a.bttn {
   display: block; padding: 14px 32px;
   color: #fff; font-size: 16px; font-weight: bold;
-  text-transform: uppercase; text-decoration-line: none;
+  text-transform: uppercase; text-decoration: none;
   border-radius: 28px;
   background: #34b233;
 }
@@ -61,10 +61,10 @@ ul.list a {text-decoration: none;}
 .header-tools {display: flex; justify-content: flex-end; align-items: flex-end;}
 .header-tools * {color: #fff;}
 
-.search, .langs, .mobile-toggle {position: relative; margin-left: 1px; background-color: #34b233; }
+.search, .langs, .mobile-toggle {position: relative; border-left: 1px solid #306d1e; background-color: #34b233; }
 /* search */
 .search {  cursor: pointer;}
-.search span.si-search {width: 20px; height: 21px; margin: 12px 14px;}
+.search span.si-search {width: 20px; height: 22px; margin: 12px 14px; line-height: 16px;}
 .search input {
   width: 0px; padding: 2px 0; border: none;
 
@@ -76,7 +76,7 @@ ul.list a {text-decoration: none;}
 }
 .search.opened input {margin-left: 14px; padding: 2px 4px; width: 170px;  }
 /* langs */
-.langs span.si-menu-arrow-down {width: 12px; height: 12px; margin-bottom: 2px; }
+.langs span.si-menu-arrow-down {width: 12px; height: 12px; margin-bottom: 2px; line-height: 26px; }
 .langs div {
   visibility: hidden; opacity: 0; width: 100%;
   position: absolute; top:45px; left:0;
@@ -89,7 +89,7 @@ ul.list a {text-decoration: none;}
   transition: all 0.35s ease-out;
 }
 .langs.opened div {visibility: visible; opacity: 1;}
-.langs a {display: block; padding: 10px 14px; font-weight: bold; text-decoration: none;}
+.langs a {display: block; padding: 10px 14px; line-height: 26px; font-weight: bold; text-decoration: none;}
 .langs a:hover {background-color: #1b981a}
 /* mobile nav */
 .mobile-toggle {display: none;}
@@ -133,7 +133,7 @@ ul.list a {text-decoration: none;}
 .fixed .navigation li:not(.curr) { visibility: hidden; opacity: 0; height: 0; }
 
 /* SECTIONS */
-#top {padding-top: 80px; height: 900px; background-image: url(../images/pilt_Map.jpg)}
+#top {padding-top: 80px; height: 900px; background-image: url(../images/pilt_Map.jpg); background-position: 50% 100%}
 #estonia {background-image: url(../images/pilt_Estonia.jpg)}
 #lithuania {background-image: url(../images/pilt_Lithuania.jpg)}
 #finland {background-image: url(../images/pilt_Finland.jpg)}

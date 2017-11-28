@@ -14,10 +14,11 @@
 <div class="header">
   <div class="section-block">
     <a class="logo" href="#"></a>
+
     <div class="header-tools">
-      <div class="search"><input type="text"> <span class="icon si-search"></span></div>
-      <div class="langs">
-        <a class="curr-lang" href="#">
+      <div class="search show"><input type="text"> <span class="icon si-search"></span></div>
+      <div class="langs show">
+        <a class="curr-lang">
           <span>EST</span>
           <span class="icon si-menu-arrow-down"></span>
         </a>
@@ -26,32 +27,33 @@
           <a href="#"><span>ENG</span></a>
         </div>
       </div>
+      <div class="mobile-toggle show"><span class="icon si-menu-burger"></span></div>
     </div>
 
     <ul class="navigation list">
-        <li><a href="#"><span class="icon si-menu-burger"></span> Home</a></li>
-        <li class="curr"><a href="#">Energy sales and</a></li>
-        <li><a href="#">E-energy</a></li>
-        <li class="subnav"><a href="#">Tehnology <span class="icon si-menu-arrow-down"></span></a>
+        <li><a href="#"><span class="icon si-menu-burger"></span>Home</a></li>
+        <li class="curr"><a href="#"><span class="icon si-menu-burger"></span>Energy sales and</a></li>
+        <li><a href="#"><span class="icon si-menu-burger"></span>E-energy</a></li>
+        <li class="subnav"><a><span class="icon si-menu-burger"></span>Tehnology <span class="icon si-menu-arrow-down"></span></a>
+          <ul class="list">
           <li><a href="#">Submenu 1</a></li>
           <li><a href="#">Submenu 2</a></li>
           <li><a href="#">Submenu 3</a></li>
+          </ul>
         </li>
-        <li><a href="#">About</a></li>
+        <li><a href="#"><span class="icon si-menu-burger"></span>About</a></li>
       </ul>
 
   </div>
 </div>
 
-
-<div class="section bg top">
+<div class="section bg" id="top">
   <div class="section-block">
     <div class="section-cont">
       <h1>Lorem ipsum</h1>
     </div>
   </div>
 </div>
-
 
 <div class="section bg" id="estonia">
     <div class="section-block">
@@ -81,7 +83,7 @@
         <a class="bttn" href="#">Read more here</a>
       </div>
       </div>
-      <div class="col"><img src="images/pilt_Latvia.jpg" title="Latvia" style="width:100%;"></div>
+      <div class="col"><img class="col-img" src="images/pilt_Latvia.jpg" title="Latvia"></div>
     </div>
   </div>
 </div>
@@ -113,7 +115,7 @@
         <a class="bttn" href="#">Read more here</a>
       </div>
       </div>
-      <div class="col"><img src="images/pilt_Poland.jpg" title="Poland"></div>
+      <div class="col"><img class="col-img" src="images/pilt_Poland.jpg" title="Poland"></div>
     </div>
   </div>
 </div>
@@ -144,7 +146,7 @@
         <a class="bttn" href="#">Stey tuned</a>
       </div>
       </div>
-      <div class="col"><img src="images/pilt_Sweden.jpg" title="Swedwn"></div>
+      <div class="col"><img class="col-img" src="images/pilt_Sweden.jpg" title="Swedwn"></div>
     </div>
   </div>
 </div>
